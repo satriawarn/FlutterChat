@@ -36,7 +36,7 @@ class LoginView extends GetView<LoginController> {
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.white38,
                         padding: const EdgeInsets.symmetric(
-                          vertical: 12,
+                          vertical: 8,
                         ),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(50),
@@ -56,7 +56,7 @@ class LoginView extends GetView<LoginController> {
                           const Text(
                             "Sign In with Google",
                             style: TextStyle(
-                              fontSize: 20,
+                              fontSize: 18,
                             ),
                           ),
                         ],
