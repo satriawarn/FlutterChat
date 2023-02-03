@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
                   return GetMaterialApp(
                     debugShowCheckedModeBanner: false,
                     title: "Flutter Chat",
-                    initialRoute: Routes.LOGIN,
+                    initialRoute: Routes.HOME,
                     getPages: AppPages.routes,
                   );
                   // if (snapshot.connectionState == ConnectionState.done) {
