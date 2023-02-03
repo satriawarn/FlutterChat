@@ -34,22 +34,28 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
                 builder: (context, snapshot) {
-                  if (snapshot.connectionState == ConnectionState.done) {
-                    return Obx(
-                      () => GetMaterialApp(
-                        debugShowCheckedModeBanner: false,
-                        title: "Flutter Chat",
-                        initialRoute: authC.isSkipIntro.isTrue
-                            ? authC.isAuth.isTrue
-                                ? Routes.HOME
-                                : Routes.LOGIN
-                            : Routes.INTRODUCTION,
-                        getPages: AppPages.routes,
-                      ),
-                    );
-                  } else {
-                    return const SplashScreen();
-                  }
+                  return GetMaterialApp(
+                    debugShowCheckedModeBanner: false,
+                    title: "Flutter Chat",
+                    initialRoute: Routes.LOGIN,
+                    getPages: AppPages.routes,
+                  );
+                  // if (snapshot.connectionState == ConnectionState.done) {
+                  //   return Obx(
+                  //     () => GetMaterialApp(
+                  //       debugShowCheckedModeBanner: false,
+                  //       title: "Flutter Chat",
+                  //       initialRoute: authC.isSkipIntro.isTrue
+                  //           ? authC.isAuth.isTrue
+                  //               ? Routes.HOME
+                  //               : Routes.LOGIN
+                  //           : Routes.INTRODUCTION,
+                  //       getPages: AppPages.routes,
+                  //     ),
+                  //   );
+                  // } else {
+                  //   return const SplashScreen();
+                  // }
                 });
           }
 
