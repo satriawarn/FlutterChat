@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>214030280777-54fgrhoploinfs5hk4qkc0ea5q2g3btr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.214030280777-54fgrhoploinfs5hk4qkc0ea5q2g3btr</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>214030280777-asg4t15qqhcdohqp5a46mu315jn52rl1.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDQ9-yp7mms6f2xveQBm1qSPIWzkM5DKC8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>214030280777</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.flutchat</string>
+	<key>PROJECT_ID</key>
+	<string>flutchat-eric</string>
+	<key>STORAGE_BUCKET</key>
+	<string>flutchat-eric.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:214030280777:ios:4f7b0c3ec6e6ac5bc57798</string>
+    <!-- End of the Google Sign-in Section -->
+</dict>
+</plist>

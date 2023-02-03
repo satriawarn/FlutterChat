@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "214030280777",
+    "project_id": "flutchat-eric",
+    "storage_bucket": "flutchat-eric.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214030280777:android:3dd78054401e8abec57798",
+        "android_client_info": {
+          "package_name": "com.example.flutchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214030280777-asg4t15qqhcdohqp5a46mu315jn52rl1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutchat",
+            "certificate_hash": "69f1f854cff3b804ca19fdea574a4695910e31c7"
+          }
+        },
+        {
+          "client_id": "214030280777-dfa2d1rvbm4lolrtm95n7m6cmthhjdih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvHXgqYllaZAdsqoswo7CHPWAP814Wm0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214030280777-dfa2d1rvbm4lolrtm95n7m6cmthhjdih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
