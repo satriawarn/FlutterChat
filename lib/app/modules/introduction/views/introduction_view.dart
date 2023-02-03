@@ -1,3 +1,4 @@
+import 'package:flutchat/app/routes/app_pages.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
@@ -21,7 +22,7 @@ class IntroductionView extends GetView<IntroductionController> {
               width: Get.width * 0.6,
               height: Get.height * 0.6,
               child: Center(
-                child: Lottie.asset("assets/lottie/main-laptop-duluk.json"),
+                child: Lottie.asset("assets/lottie/main-laptop-duduk.json"),
               ),
             ),
           ),
@@ -54,9 +55,8 @@ class IntroductionView extends GetView<IntroductionController> {
           "Next",
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
-        done: const Text("Done", style: TextStyle(fontWeight: FontWeight.w700)),
-        onDone: () {},
-        onSkip: () {},
+        done: const Text("Login", style: TextStyle(fontWeight: FontWeight.w700)),
+        onDone: () => Get.offAllNamed(Routes.LOGIN),
         dotsDecorator: DotsDecorator(
           size: const Size.square(10.0),
           activeSize: const Size(20.0, 10.0),
